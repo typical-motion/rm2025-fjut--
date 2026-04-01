@@ -25,19 +25,6 @@ CUDA 版本：11.x 或 12.x（根据 TensorRT 版本）
 
 显卡：NVIDIA GPU（支持 CUDA）
 
-
-下载
-python my_serial.py
-📦 核心模块说明
-模块	功能描述
-yolov5Detector.py	YOLOv5 检测器封装，支持 ONNX 和 TensorRT 推理
-deepsortTracker.py	DeepSORT 多目标追踪算法实现
-TRTEngine.py	TensorRT 推理引擎，提供高性能推理接口
-hik_camera.py	海康相机 SDK 封装，支持实时视频流采集
-ui_design.py	PyQt5 图形界面，可视化检测结果
-video_recorder.py	视频录制模块，支持检测画面保存
-location.py	目标定位算法，输出坐标信息
-my_serial.py	串口通信，用于与下位机交互
 🎮 使用说明
 图形界面操作
 运行 python ui_design.py 启动界面
