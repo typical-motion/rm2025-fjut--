@@ -1,6 +1,6 @@
 基于 YOLOv5 + TensorRT 的目标检测与追踪系统
 📖 项目简介
-本项目是一个基于 YOLOv5 和 TensorRT 的高性能目标检测与追踪系统，集成了海康威视相机（hik_camera）、串口通信（my_serial）和 GUI 界面（ui_design），适用于工业检测、智能监控等场景。
+robomaster2025 fjut苍侠战队视觉雷达
 
 ✨ 主要特性
 🚀 TensorRT 加速：支持 ONNX 和 TensorRT 引擎，大幅提升推理速度
@@ -11,32 +11,10 @@
 
 📷 海康相机支持：可直接接入海康工业相机
 
-🖥️ 图形界面：基于 PyQt 的可视化操作界面
-
 📹 视频录制：支持检测过程实时录制
 
 📍 定位功能：目标位置信息输出
 
-📁 项目结构
-
-下载
-E:.
-├── calibration.py              # 相机标定模块
-├── config.py                   # Python 配置文件
-├── deepsortTracker.py          # DeepSORT 追踪器实现
-├── hik_camera.py               # 海康相机驱动接口
-├── icudaengine.py              # TensorRT ICudaEngine 封装
-├── location.py                 # 目标定位算法
-├── main.py                     # 主程序入口
-├── my_serial.py                # 串口通信模块
-├── onnx_engine.py              # ONNX 推理引擎
-├── plan.txt                    # 项目计划文档
-├── readme.md                   # 项目说明文档（本文件）
-├── requirements.txt            # Python 依赖列表
-├── ui_design.py                # PyQt 界面设计
-├── utils.py                    # 通用工具函数
-├── video_recorder.py           # 视频录制模块
-└── yolov5Detector.py           # YOLOv5 检测器封装
 🔧 环境配置
 系统要求
 操作系统：Windows 10/11
